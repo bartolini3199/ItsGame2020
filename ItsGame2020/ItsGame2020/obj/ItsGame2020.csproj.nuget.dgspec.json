@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luca\\source\\repos\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj": {}
+    "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luca\\source\\repos\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj": {
+    "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luca\\source\\repos\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj",
+        "projectUniqueName": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj",
         "projectName": "ItsGame2020",
-        "projectPath": "C:\\Users\\Luca\\source\\repos\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj",
+        "projectPath": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj",
         "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luca\\source\\repos\\ItsGame2020\\ItsGame2020\\obj\\",
+        "outputPath": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
