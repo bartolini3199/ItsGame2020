@@ -1,0 +1,16 @@
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.Game.exe
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.Game.deps.json
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.Game.runtimeconfig.json
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.Game.runtimeconfig.dev.json
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.Game.dll
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.Game.pdb
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.dll
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\bin\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.pdb
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.csprojAssemblyReference.cache
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.AssemblyInfoInputs.cache
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.AssemblyInfo.cs
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.csproj.CoreCompileInputs.cache
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.csproj.CopyComplete
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.dll
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.pdb
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020\obj\Debug\netcoreapp3.1\ItsGame2020.Game.genruntimeconfig.cache

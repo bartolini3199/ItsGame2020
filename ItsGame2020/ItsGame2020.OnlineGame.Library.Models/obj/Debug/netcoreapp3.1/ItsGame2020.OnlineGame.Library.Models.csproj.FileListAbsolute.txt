@@ -1,0 +1,9 @@
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\bin\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.deps.json
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\bin\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.dll
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\bin\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.pdb
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\obj\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.csprojAssemblyReference.cache
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\obj\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.AssemblyInfoInputs.cache
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\obj\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.AssemblyInfo.cs
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\obj\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.csproj.CoreCompileInputs.cache
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\obj\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.dll
+C:\Users\Luca\Source\Repos\ItsGame2020\ItsGame2020\ItsGame2020.OnlineGame.Library.Models\obj\Debug\netcoreapp3.1\ItsGame2020.OnlineGame.Library.Models.pdb

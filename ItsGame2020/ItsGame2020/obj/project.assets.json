@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ItsGame2020.OnlineGame.Library.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ItsGame2020.OnlineGame.Library.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ItsGame2020.OnlineGame.Library.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ItsGame2020.OnlineGame.Library.Models/1.0.0": {
+      "type": "project",
+      "path": "../ItsGame2020.OnlineGame.Library.Models/ItsGame2020.OnlineGame.Library.Models.csproj",
+      "msbuildProject": "../ItsGame2020.OnlineGame.Library.Models/ItsGame2020.OnlineGame.Library.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ItsGame2020.OnlineGame.Library.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Luca\\.nuget\\packages\\": {}
@@ -13,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj",
-      "projectName": "ItsGame2020",
-      "projectPath": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.csproj",
+      "projectUniqueName": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.Game.csproj",
+      "projectName": "ItsGame2020.Game",
+      "projectPath": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\ItsGame2020.Game.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020\\obj\\",
       "projectStyle": "PackageReference",
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020.OnlineGame.Library.Models\\ItsGame2020.OnlineGame.Library.Models.csproj": {
+              "projectPath": "C:\\Users\\Luca\\Source\\Repos\\ItsGame2020\\ItsGame2020\\ItsGame2020.OnlineGame.Library.Models\\ItsGame2020.OnlineGame.Library.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

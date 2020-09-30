@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ItsGame2020.Game/1.0.0": {
+        "dependencies": {
+          "ItsGame2020.OnlineGame.Library.Models": "1.0.0"
+        },
+        "runtime": {
+          "ItsGame2020.Game.dll": {}
+        }
+      },
+      "ItsGame2020.OnlineGame.Library.Models/1.0.0": {
+        "runtime": {
+          "ItsGame2020.OnlineGame.Library.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ItsGame2020.Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ItsGame2020.OnlineGame.Library.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
