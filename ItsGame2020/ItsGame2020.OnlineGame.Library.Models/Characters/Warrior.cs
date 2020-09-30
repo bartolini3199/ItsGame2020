@@ -9,7 +9,7 @@ namespace ItsGame2020.OnlineGame.Library.Models.Characters
         public Warrior() : base() { }
         public Warrior(string name) : base(name) { }
         
-        public override int BaseHealth => 130;
-        public override int BaseMana => 20;
+        protected override int BaseHealth => 130;
+        protected override int BaseMana => 20;
     }
 }

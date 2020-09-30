@@ -1,4 +1,5 @@
-﻿using ItsGame2020.OnlineGame.Library.Models.Characters;
+﻿using ItsGame2020.Game;
+using ItsGame2020.OnlineGame.Library.Models.Characters;
 
 using System;
 using System.Collections.Generic;
@@ -7,25 +8,26 @@ namespace Test.ConsoleApp
 {
     class Program
     {
+        public static CharacterFactory characterFactory = new CharacterFactory();
         static void Main(string[] args)
         {
-            List<Character> characters = new List<Character>();
-            Warrior warrior = new Warrior();
-            Wizard wizard = new Wizard();
-            Rogue rogue = new Rogue();
-            characters.Add(warrior);
-            characters.Add(wizard);
-            characters.Add(rogue);
-
-            //wizard.ThrowFireBall(warrior);
-
-            foreach (Character character in characters)
-            {
-                Console.WriteLine($"{character.Name} = {character.HealthPoints}");
-                character.Heal(100);
-                Console.WriteLine($"{character.Name} = {character.HealthPoints}");
-
-            }
+            GameManager.Instance().AddPlayers
+            (
+                characterFactory.Create(CharacterClass.Warrior, "Guerrirero"),
+                characterFactory.Create(CharacterClass.Wizard),
+                characterFactory.Create()
+            );
+            GameManager.Instance().PrintPlayers();
         }
-    }
+    }      
 }
+/*ConsoleKey key = ConsoleKey.Enter;
+           while(key != ConsoleKey.Escape) 
+           {
+               GameManager.Instance().AddPlayer(characterFactory.Create(CharacterClass.Warrior, "MyName"));
+               GameManager.Instance().AddPlayer(characterFactory.Create(CharacterClass.Wizard));
+               GameManager.Instance().AddPlayer(characterFactory.Create());
+
+               Console.WriteLine();
+               key = Console.ReadKey().Key;
+           }*/

@@ -12,8 +12,8 @@ namespace ItsGame2020.OnlineGame.Library.Models.Characters
             this.ManaPoints = 150;
             this.HealthPoints = MaxHealth;
         }
-        public override int BaseHealth => 100;
-        public override int BaseMana => 150;
+        protected override int BaseHealth => 100;
+        protected override int BaseMana => 150;
         public void ThrowFireBall(Character target)
         {
             Console.WriteLine($"{this.Name} throws a fireball to {target.Name}");

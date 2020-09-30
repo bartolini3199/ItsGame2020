@@ -9,7 +9,7 @@ namespace ItsGame2020.OnlineGame.Library.Models.Characters
         public Rogue() : base() { }
         public Rogue(string name) : base(name) { }
 
-        public override int BaseHealth => 125;
-        public override int BaseMana => 150;
+        protected override int BaseHealth => 125;
+        protected override int BaseMana => 150;
     }
 }
