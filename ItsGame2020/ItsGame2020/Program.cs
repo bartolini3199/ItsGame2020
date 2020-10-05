@@ -3,6 +3,7 @@ using ItsGame2020.OnlineGame.Library.Models.Characters;
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Test.ConsoleApp
 {
@@ -13,21 +14,20 @@ namespace Test.ConsoleApp
         {
             GameManager.Instance().AddPlayers
             (
-                characterFactory.Create(CharacterClass.Warrior, "Guerrirero"),
-                characterFactory.Create(CharacterClass.Wizard),
-                characterFactory.Create()
+                characterFactory.Create(CharacterClass.Warrior, "Player 1"),
+                characterFactory.Create(CharacterClass.Wizard, "Player 2")
             );
             GameManager.Instance().PrintPlayers();
+            Character player1 = GameManager.GetFirstPlayer();
+            Character player2 = GameManager.GetSecondPlayer();
+            if (player1 != null && player2 != null)
+            {
+                player1.Attack(player2);
+            }
+            else
+            {
+                Console.WriteLine("Empty player list");
+            }
         }
-    }      
+    }
 }
-/*ConsoleKey key = ConsoleKey.Enter;
-           while(key != ConsoleKey.Escape) 
-           {
-               GameManager.Instance().AddPlayer(characterFactory.Create(CharacterClass.Warrior, "MyName"));
-               GameManager.Instance().AddPlayer(characterFactory.Create(CharacterClass.Wizard));
-               GameManager.Instance().AddPlayer(characterFactory.Create());
-
-               Console.WriteLine();
-               key = Console.ReadKey().Key;
-           }*/

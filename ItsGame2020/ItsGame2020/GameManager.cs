@@ -34,6 +34,9 @@ namespace ItsGame2020.Game
         {
             Characters.AddRange(character);
         }
+        public static List<Character> GetPlayers() => GameManager.Instance().Characters;
+        public static Character GetFirstPlayer() => GameManager.Instance().Characters.FirstOrDefault();
+        public static Character GetSecondPlayer() => GameManager.Instance().Characters.Skip(1).FirstOrDefault();
 
     }
 }
